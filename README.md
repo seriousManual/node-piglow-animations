@@ -2,6 +2,8 @@
 
 **WIP, not ready yet**
 
+node-piglow-animations is a library on top of node-piglow that allows for piglow animations.
+
 An animation consists of a bunch of interface configurations that will be subsequently invoked.
 Between the different configurations transitions can be defined as well als transformation and invocation times.
 A chaining interface makes the configuration of animations super simple.

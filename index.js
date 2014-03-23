@@ -12,7 +12,7 @@ var animationInterface = require('./lib/interface');
 function createAnimation(options, piglowBackend) {
     options = options || {};
 
-    if(!piglowBackend) {
+    if (!piglowBackend) {
         piglowBackend = new (require('piglow')).Backend();
     }
 

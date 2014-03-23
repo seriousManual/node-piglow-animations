@@ -1,36 +1,36 @@
 {
-  "name": "piglow-animations",
-  "version": "0.1.0",
-  "description": "piglow-animations is an extension for piglow that adds animation capabilities",
-  "main": "index.js",
-  "author": "Manuel Ernst <zaphod84@gmx.de>",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zaphod1984/node-piglow-animations"
-  },
-  "license": "MIT",
-  "dependencies": {
-    "ptic": "~0.3.1",
-    "hirestime": "~0.2.4",
-    "piglow": ">=1.0.1 <2.0.0",
-    "depugger": "~0.2.4",
-    "cloneextend": "0.0.3"
-  },
-  "devDependencies": {
-    "mocha": "~1.18.2",
-    "chai": "~1.9.1",
-    "sandboxed-module": "~0.3.0",
-    "sinon": "~1.9.0"
-  },
-  "keywords": [
-    "pimoroni",
-    "piglow",
-    "raspberry pi",
-    "led",
-    "i2c",
-    "animations"
-  ],
-  "scripts": {
-    "test": "./node_modules/.bin/mocha tests --timeout 5000"
-  }
+    "name": "piglow-animations",
+    "version": "0.1.0",
+    "description": "piglow-animations is an extension for piglow that adds animation capabilities",
+    "main": "index.js",
+    "author": "Manuel Ernst <zaphod84@gmx.de>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zaphod1984/node-piglow-animations"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "ptic": "~0.3.1",
+        "hirestime": "~0.2.4",
+        "piglow": ">=1.0.1 <2.0.0",
+        "depugger": "~0.2.4",
+        "cloneextend": "0.0.3"
+    },
+    "devDependencies": {
+        "mocha": "~1.18.2",
+        "chai": "~1.9.1",
+        "sandboxed-module": "~0.3.0",
+        "sinon": "~1.9.0"
+    },
+    "keywords": [
+        "pimoroni",
+        "piglow",
+        "raspberry pi",
+        "led",
+        "i2c",
+        "animations"
+    ],
+    "scripts": {
+        "test": "./node_modules/.bin/mocha tests --timeout 5000"
+    }
 }

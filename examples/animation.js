@@ -4,10 +4,11 @@ var animation = piglow.animation;
 var pi = piglow.piGlowInterface;
 
 var piGlowBackendMock = {
-    update: function(bytes) {}
+    update: function (bytes) {
+    }
 };
 
-animation({interval:10, debug: true}, piGlowBackendMock)
+animation({interval: 10, debug: true}, piGlowBackendMock)
     .set().to(pi(['ring_0'])).after('1s')
     .set().to(pi(['ring_1'])).after('0.1s')
     .set().to(pi(['ring_2'])).after('0.1s')

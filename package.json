@@ -12,7 +12,7 @@
   "dependencies": {
     "ptic": "0.2.2",
     "hirestime": "~0.2.4",
-    "piglow": "^1.0.1",
+    "piglow": ">=1.0.1 <2.0.0",
     "depugger": "~0.2.4",
     "cloneextend": "0.0.3"
   },

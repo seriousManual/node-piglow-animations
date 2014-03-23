@@ -1,5 +1,5 @@
-var animation = require('../../lib/animations/index');
-var pi = require('../../lib/interface');
+var animation = require('../index');
+var pi = require('../lib/interface');
 
 animation()
     .set().to(pi(['red'])).after('0.4s')

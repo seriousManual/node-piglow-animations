@@ -1,5 +1,7 @@
-var animation = require('../index');
-var pi = require('../lib/interface');
+var piglow = require('../');
+
+var animation = piglow.animation;
+var pi = piglow.piGlowInterface;
 
 animation()
     .set().to(pi(['red'])).after('0.4s')

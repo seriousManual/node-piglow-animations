@@ -1,6 +1,6 @@
-var piglow = require('piglow');
+var piglow = require('./');
 
-var animation = require('./');
+var animation = piglow.animation;
 var pi = piglow.piGlowInterface;
 var backend = new piglow.BackendMockPrettyPrint();
 

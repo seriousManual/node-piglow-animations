@@ -10,7 +10,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "ptic": "0.2.2",
+    "ptic": "~0.3.1",
     "hirestime": "~0.2.4",
     "piglow": ">=1.0.1 <2.0.0",
     "depugger": "~0.2.4",

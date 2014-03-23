@@ -1,5 +1,7 @@
-var animation = require('../../lib/animations/index');
-var pi = require('../../lib/interface');
+var piglow = require('../');
+
+var animation = piglow.animation;
+var pi = piglow.piGlowInterface;
 
 animation({debug:false, interval: 10})
     .fade().to(pi({ring_0: 255})).in('0.1s')

@@ -12,6 +12,10 @@ An animation consists of a bunch of interface configurations that will be subseq
 Between the different configurations transitions can be defined as well als transformation and invocation times.
 A chaining interface makes the configuration of animations super simple.
 
+<p align="center">
+    <img src="https://raw.github.com/zaphod1984/node-piglow-animations/master/pics/animation.jpg" />
+</p>
+
 Check the examples folder for animation examples.
 
 ### Usage

@@ -1,6 +1,10 @@
 # piglow-animations
 
-**WIP, not ready yet**
+[![Build Status](https://travis-ci.org/zaphod1984/node-piglow-animations.png)](https://travis-ci.org/zaphod1984/node-piglow-animations)
+
+[![NPM](https://nodei.co/npm/piglow-animations.png)](https://nodei.co/npm/piglow-animations/)
+
+[![NPM](https://nodei.co/npm-dl/piglow-animations.png?months=3)](https://nodei.co/npm/piglow-animations/)
 
 node-piglow-animations is a library on top of node-piglow that allows for piglow animations.
 
@@ -12,7 +16,7 @@ Check the examples folder for animation examples.
 
 ### Usage
 ````javascript
-var piglow = require('piglow');
+var piglow = require('piglow-animations');
 
 var animation = piglow.animation;
 var pi = piglow.piGlowInterface;
@@ -82,39 +86,6 @@ Accepts an optional callback that will be called when the animation has been fin
 #### stop([noCallback])
 Stops the animation, if present the callback from the start command will be fired.
 If the parameter `noCallback` has been set, the callback will not be invoked.
-
-### Chaining animations
-
-It is also possible to chain animations.
-
-````javascript
-var piglow = require('piglow');
-var animation = piglow.animation;
-var pi = piglow.piGlowInterface;
-
-var rings = animation()
-        .set().to(pi(['ring_0'])).after('0.1s')
-        .set().to(pi(['ring_1'])).after('0.1s')
-        .set().to(pi(['ring_2'])).after('0.1s')
-        .set().to(pi(['ring_3'])).after('0.1s')
-        .set().to(pi(['ring_4'])).after('0.1s')
-        .set().to(pi(['ring_5'])).after('0.1s')
-        .repeat('1times');
-
-var legs = animation()
-        .set().to(pi(['leg_0'])).after('0.1s')
-        .set().to(pi(['leg_1'])).after('0.1s')
-        .set().to(pi(['leg_2'])).after('0.1s')
-        .repeat('1times');
-
-animation.jane({debug: true})
-        .chain(rings)
-        .chain(legs)
-        .repeat('2s')
-        .start(function() {
-            console.log( 'chain finished' );
-        });
-````
 
 ### Variations of interface configurations
 For your convenience there are some additional ways of predefining LED values:

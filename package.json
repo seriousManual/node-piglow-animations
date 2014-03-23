@@ -1,7 +1,7 @@
 {
   "name": "piglow-animations",
   "version": "0.0.0",
-  "description": "enhancing the piglow with animation capabilities",
+  "description": "piglow-animations is an extension for piglow that adds animation capabilities",
   "main": "index.js",
   "author": "Manuel Ernst <zaphod84@gmx.de>",
   "repository": {

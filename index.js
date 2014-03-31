@@ -13,7 +13,7 @@ function createAnimation(options, piglowBackend) {
     options = options || {};
 
     if (!piglowBackend) {
-        piglowBackend = new (require('piglow')).Backend();
+        piglowBackend = new piglow.Backend();
     }
 
     return animationInterface(new AnimationBackend(options, piglowBackend));

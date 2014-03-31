@@ -47,7 +47,7 @@ Optional options object:
   * interval: defines in which interval LED updates should be made, default: 100
   * debug: activates debugging
 
-The optional backend object can be used to inject a mocking backend (unit tests, non raspi environment etc).
+The optional backend object can be used to inject a mocking backend (unit tests, non raspi environment etc). See the [Adressing section](https://github.com/zaphod1984/node-piglow#mocking) of [node-piglow](https://github.com/zaphod1984/node-piglow) for details.
 
 #### fade()
 Opens up a new `fade` transition context.

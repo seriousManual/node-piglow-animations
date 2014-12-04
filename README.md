@@ -1,6 +1,4 @@
-# piglow-animations
-
-[![Build Status](https://travis-ci.org/zaphod1984/node-piglow-animations.png)](https://travis-ci.org/zaphod1984/node-piglow-animations)
+# piglow-animations [![Build Status](https://travis-ci.org/zaphod1984/node-piglow-animations.png)](https://travis-ci.org/zaphod1984/node-piglow-animations)
 
 [![NPM](https://nodei.co/npm/piglow-animations.png)](https://nodei.co/npm/piglow-animations/)
 

@@ -10,17 +10,16 @@
   },
   "license": "MIT",
   "dependencies": {
-    "ptic": "~0.3.1",
-    "hirestime": "~0.2.4",
-    "piglow": ">=2.0.0 <= 3.0.0",
-    "depugger": "~0.2.4",
-    "cloneextend": "0.0.3"
+    "depugger": "^1.0.0",
+    "hirestime": "^1.0.1",
+    "hoek": "^2.10.0",
+    "ptic": "^1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.18.2",
-    "chai": "~1.9.1",
-    "sandboxed-module": "~0.3.0",
-    "sinon": "~1.9.0"
+    "mocha": "^2.0.1",
+    "chai": "^1.10.0",
+    "sandboxed-module": "^0.3.0",
+    "sinon": "^1.12.2"
   },
   "keywords": [
     "pimoroni",

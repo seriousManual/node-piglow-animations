@@ -1,13 +1,13 @@
 var piglow = require('piglow');
 var expect = require('chai').expect;
 var sinon = require('sinon');
-var ce = require('cloneextend');
+var hoek = require('hoek');
 
 function createBackendMock() {
     return {
         values: [],
         update: function (bytes) {
-            this.values.push(ce.clone(bytes));
+            this.values.push(hoek.clone(bytes));
         }
     };
 }

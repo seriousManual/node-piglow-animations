@@ -3,10 +3,10 @@
   "version": "1.1.1",
   "description": "piglow-animations is an extension for piglow that adds animation capabilities",
   "main": "index.js",
-  "author": "Manuel Ernst <zaphod84@gmx.de>",
+  "author": "Manuel Ernst <seriousstuff@gmx.de>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/zaphod1984/node-piglow-animations"
+    "url": "https://github.com/seriousManual/node-piglow-animations"
   },
   "license": "MIT",
   "dependencies": {

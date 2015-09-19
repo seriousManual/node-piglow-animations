@@ -1,4 +1,4 @@
-# piglow-animations [![Build Status](https://travis-ci.org/zaphod1984/node-piglow-animations.png)](https://travis-ci.org/zaphod1984/node-piglow-animations)
+# piglow-animations [![Build Status](https://travis-ci.org/seriousManual/node-piglow-animations.png)](https://travis-ci.org/seriousManual/node-piglow-animations)
 
 [![NPM](https://nodei.co/npm/piglow-animations.png)](https://nodei.co/npm/piglow-animations/)
 
@@ -11,7 +11,7 @@ Between the different configurations transitions can be defined as well als tran
 A chaining interface makes the configuration of animations super simple.
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/zaphod1984/node-piglow-animations/master/pics/animation.gif" />
+    <img src="https://raw.githubusercontent.com/seriousmanual/node-piglow-animations/master/pics/animation.gif" />
 </p>
 
 Check the examples folder for animation examples.

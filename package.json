@@ -14,7 +14,7 @@
     "hirestime": "^1.0.1",
     "hoek": "^2.10.0",
     "ptic": "^1.0.0",
-    "piglow": "^2.1.0"
+    "piglow": "^3"
   },
   "devDependencies": {
     "mocha": "^2.0.1",
@@ -32,5 +32,8 @@
   ],
   "scripts": {
     "test": "./node_modules/.bin/mocha tests --timeout 5000"
+  },
+  "engine": {
+    "node": ">=4"
   }
 }

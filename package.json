@@ -12,7 +12,7 @@
   "dependencies": {
     "depugger": "^1.0.0",
     "hirestime": "^2.1.0",
-    "hoek": "^2.10.0",
+    "hoek": "^4.1.1",
     "ptic": "^1.0.0",
     "piglow": "^3"
   },

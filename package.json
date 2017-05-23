@@ -20,7 +20,7 @@
     "mocha": "^3.1.0",
     "chai": "^3.5.0",
     "sandboxed-module": "^0.3.0",
-    "sinon": "^1.12.2"
+    "sinon": "^2.3.1"
   },
   "keywords": [
     "pimoroni",
